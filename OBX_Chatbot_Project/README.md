@@ -1,10 +1,11 @@
+
 # OBX 4.0 – AI Employee Chatbot (Offline)
 
 **Goal:** Internal Chatbot to answer employee queries (HR, IT, Finance, Project)
 
-**LLM Used:** Mistral-7B-Instruct (GGUF format)  
-**Framework:** llama.cpp + FastAPI  
-**Fine-Tuning:** 1000 Q&A using prompt-completion format  
+**LLM Used:** Mistral-7B-Instruct (GGUF format)
+**Framework:** llama.cpp + FastAPI
+**Fine-Tuning:** 1000 Q&A using prompt-completion format
 **Platform:** Runs on Windows locally (No API cost)
 
 ## Setup Instructions:
