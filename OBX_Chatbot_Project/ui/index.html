@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>OBX 4.0 Chatbot</title></head>
+<body>
+  <h2>Chat with OBX</h2>
+  <input id="input" type="text"><button onclick="chat()">Send</button>
+  <p id="response"></p>
+  <script>
+    async function chat() {
+      const query = document.getElementById('input').value;
+      const res = await fetch('/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query })
+      });
+      const data = await res.json();
+      document.getElementById('response').innerText = data.response;
+    }
+  </script>
+</body>
+</html>
