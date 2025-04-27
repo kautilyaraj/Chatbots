@@ -1,5 +1,5 @@
 
-# OBX 4.0 – AI Employee Chatbot (Offline)
+# AI Employee Chatbot (Offline)
 
 **Goal:** Internal Chatbot to answer employee queries (HR, IT, Finance, Project)
 
